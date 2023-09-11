@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    color: #331603;
+}
+
+.container {
+    display: flex;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #331603;
+    background-color: #fcccfc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 1px #fff;
+    width: 200px; 
+    margin: 2.5px; 
+}
+  
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover {background-color:#fcccfc}
+  
+.button1:active, .button2:active, .button3:active, .button4:active, .button5:active, .button6:active {
+    background-color: #fcccfc;
+    box-shadow: 0 1px #fff;
+    transform: translateY(4px);
+}
